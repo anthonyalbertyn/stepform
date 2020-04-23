@@ -1,0 +1,14 @@
+.fromtabs-wrapper {
+  margin-bottom: 20px;
+}
+
+ul.form-tabs {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.form-tabs li.tab {
+  padding: 10px;
+}
