@@ -30,13 +30,9 @@ const FormTabs: React.FC<FormTabsProps> = ({
             {tabData.map((item) => {
               const tabClass =
                 item.tabId === activeTabId ? 'tab active' : 'tab';
+              const id = item.tabId.toString();
               return (
-                <li
-                  key={item.tabId.toString()}
-                  id={item.tabId.toString()}
-                  className={tabClass}
-                  onClick={handleClick}
-                >
+                <li key={id} id={id} className={tabClass} onClick={handleClick}>
                   {item.tabLabel}
                 </li>
               );

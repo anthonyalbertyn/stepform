@@ -11,4 +11,16 @@ ul.form-tabs {
 
 .form-tabs li.tab {
   padding: 10px;
+  border: 1px solid darkgray;
+  min-width: 80px;
+  text-align: center;
+}
+
+.form-tabs li.tab:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.form-tabs li.tab.active {
+  background-color: lightskyblue;
 }

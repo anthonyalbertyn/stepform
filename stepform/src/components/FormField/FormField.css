@@ -1,0 +1,30 @@
+.form-field {
+  margin: 0.25rem 0.5rem;
+  padding: 10px;
+  border: 1px solid transparent;
+}
+
+.form-field.error {
+  border: 1px solid red;
+}
+
+.form-field--label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.form-field--label .if-required {
+  color: red;
+  display: none;
+}
+
+.form-field--label.required .if-required {
+  display: inline;
+  padding: 0.25rem;
+}
+
+.form-field--error-message {
+  display: block;
+  color: red;
+  padding-top: 0.5rem;
+}
